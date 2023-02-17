@@ -1,1 +1,4 @@
 
+In order to use this code to its fullest potential, it is imperative that you possess the latest [TensorFlow version](https://pypi.org/project/tensorflow/) of 2.0 or above. Furthermore, an in-depth understanding of [Python](https://www.w3schools.com/python/python_intro.asp), [machine learning](https://www.geeksforgeeks.org/machine-learning/), and statistics is required to proficiently navigate and manipulate the code to meet your needs. Without the proper knowledge and understanding of these crucial components, your ability to effectively apply and execute the code may be limited, potentially hindering your overall success and desired outcomes.
+
+Good luck
