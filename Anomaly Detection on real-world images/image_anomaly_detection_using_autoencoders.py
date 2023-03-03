@@ -1,17 +1,4 @@
-# https://youtu.be/q_tpFGHiRgg
-"""
-Detecting anomaly images using AutoEncoders. 
-(Sorting an entire image as either normal or anomaly)
-
-Here, we use both the reconstruction error and also the kernel density estimation
-based on the vectors in the latent space. We will consider the bottleneck layer output
-from our autoencoder as the latent space. 
-
-This code uses the malarial data set but it can be easily applied to 
-any application. 
-
-Data from: https://lhncbc.nlm.nih.gov/LHC-publications/pubs/MalariaDatasets.html
-"""
+# Import the necessary libraries
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, UpSampling2D
