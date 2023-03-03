@@ -1,16 +1,5 @@
-# https://youtu.be/P9NdQG_vIvo
-"""
-Anomaly localization in images using the global average pooling layer.
+# Import the neccessary libraries
 
-Binary classification - Good vs. bad images (Uninfected vs parasiized)
-
-This code uses the malarial data set but it can be easily applied to 
-any application. 
-
-Data from: https://lhncbc.nlm.nih.gov/LHC-publications/pubs/MalariaDatasets.html
-"""
-
-##########################################################
 import matplotlib.pyplot as plt
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import GlobalAveragePooling2D, Dense
